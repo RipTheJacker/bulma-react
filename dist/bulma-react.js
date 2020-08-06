@@ -2137,7 +2137,6 @@ var card_CardHeaderIcon = function CardHeaderIcon(_ref7) {
 
 
 // CONCATENATED MODULE: ./src/index.js
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Delete", function() { return Delete; });
 /* concated harmony reexport Content */__webpack_require__.d(__webpack_exports__, "Content", function() { return components_Content; });
 /* concated harmony reexport Footer */__webpack_require__.d(__webpack_exports__, "Footer", function() { return components_Footer; });
 /* concated harmony reexport Image */__webpack_require__.d(__webpack_exports__, "Image", function() { return components_Image; });
@@ -2206,8 +2205,9 @@ var card_CardHeaderIcon = function CardHeaderIcon(_ref7) {
 /* concated harmony reexport CardContent */__webpack_require__.d(__webpack_exports__, "CardContent", function() { return card_CardContent; });
 /* concated harmony reexport CardImage */__webpack_require__.d(__webpack_exports__, "CardImage", function() { return card_CardImage; });
 /* concated harmony reexport CardFooter */__webpack_require__.d(__webpack_exports__, "CardFooter", function() { return card_CardFooter; });
+/* concated harmony reexport Delete */__webpack_require__.d(__webpack_exports__, "Delete", function() { return components_Close; });
 
-var Delete = Close;
+
 
 /***/ })
 /******/ ]);

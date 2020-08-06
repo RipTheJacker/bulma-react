@@ -1,6 +1,6 @@
 {
   "name": "bulma-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Components and hooks for using Bulma.io with react",
   "main": "dist/bulma-react.js",
   "author": "RipTheJacker <kabari@gmail.com>",
@@ -33,7 +33,7 @@
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --mode production",
     "test": "jest"
   }
 }

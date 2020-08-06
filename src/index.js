@@ -27,4 +27,4 @@ Select, Textarea, Label, Radio, Checkbox, Input, Field, Control, Help,
 Card, CardHeader, CardHeaderTitle, CardHeaderIcon, CardContent, CardImage, CardFooter
 } from 'components/index'
 
-export const Delete = Close
+export { Close as Delete } from 'components/index'
