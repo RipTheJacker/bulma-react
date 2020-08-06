@@ -4,14 +4,21 @@ const path = require('path');
 exports.default = {
   devtool: 'source-map',
   entry: './src/index.js',
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bulma-react.js',
+    libraryTarget: "commonjs2"
+  },
   module: {
     rules: [
       {
         test: /\.jsx?$/,
-        loader: 'babel-loader'
+        loader: 'babel-loader',
+        exclude: /(node_modules|bower_components|build)/,
       },
     ]
   },
+  externals: ['clsx', 'react'],
   optimization: {
     minimize: false,
     // splitChunks: {

@@ -2,14 +2,14 @@
   "name": "bulma-react",
   "version": "0.0.1",
   "description": "Components and hooks for using Bulma.io with react",
-  "main": "dist/index.js",
+  "main": "dist/bulma-react.js",
   "author": "RipTheJacker <kabari@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "bulma": "^0.8.0",
-    "clsx": "^1.1.0"
+    "bulma": "^0.8.0"
   },
   "peerDependencies": {
+    "clsx": "^1.1.0",
     "prop-types": "^15.7.2",
     "react": "^16"
   },
@@ -20,6 +20,7 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.1.0",
     "chai": "^4.2.0",
     "enzyme": "^3.8.0",
     "eslint-plugin-chai-expect": "^2.1.0",
@@ -30,6 +31,7 @@
     "webpack-cli": "^3.3.11"
   },
   "scripts": {
+    "build": "webpack",
     "test": "jest"
   }
 }
