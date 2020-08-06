@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'utils/prop-types'
+import PropTypes from 'prop-types'
 import { useBulmaStyles, useBulmaExtensions } from 'utils/index'
 
 const Element = ({tag, extensions, ...allProps}) => {

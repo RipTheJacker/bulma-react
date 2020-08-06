@@ -1,6 +1,6 @@
 import React from 'react'
 import Element from './Element'
-import { StatusModifiers } from '../index'
+import { StatusModifiers } from 'utils/index'
 
 const Tag = ({children, ...props}) => {
   const extensions = {

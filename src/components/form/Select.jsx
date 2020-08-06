@@ -1,5 +1,5 @@
 import React from 'react'
-import { useBulmaStyles, useBulmaExtensions } from '../../index'
+import { useBulmaStyles, useBulmaExtensions } from 'utils/index'
 
 const Select = ({children, ...props}) => {
   const extensions = {

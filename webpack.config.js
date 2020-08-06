@@ -18,7 +18,7 @@ exports.default = {
       },
     ]
   },
-  externals: ['clsx', 'react'],
+  externals: ['clsx', 'react', 'prop-types'],
   optimization: {
     minimize: false,
     // splitChunks: {

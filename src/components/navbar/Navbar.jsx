@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'utils/prop-types'
+import PropTypes from 'prop-types'
 import Element from '../Element'
 import { NavbarContext } from './hooks'
 

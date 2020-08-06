@@ -1,6 +1,6 @@
 import React from 'react'
 import Element from '../Element'
-import PropTypes from 'utils/prop-types'
+import PropTypes from 'prop-types'
 
 const Hero = ({children, ...props}) => {
   const extensions = {
